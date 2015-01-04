@@ -1,14 +1,16 @@
 <html>
 <head>
 	<title>Hello World</title>
-	<h1>HELLO</h1>
-	<h1>
-		<%= @user %>
-	</h1>
-
 </head>
 <body>
-
+	<h1>
+		Hello, <%= @user.first_name %>!
+	</h1>
+	<h4>
+		Your email is: <%= @user.email %>.
+		<br>
+		Thanks for visiting!
+	</h4>
 </body>
 </html>
 
